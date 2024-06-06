@@ -1,6 +1,6 @@
 #include<stdio.h>
 
 int mian(){
-      printf("老弟还得练");
+      printf("再改举报你");
   return 0;
 }
