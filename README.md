@@ -52,6 +52,29 @@
 [![2024-06-07-224224.jpg](https://i.postimg.cc/8Pr086Nj/2024-06-07-224224.jpg)](https://postimg.cc/MvqDVXcS)
 
 
+##设备认证
+
+### 1.如何让网站的账户与设备绑定，后续完成代码的管理
+```bush
+       git init //创建本地仓库
+
+       git config --list //查看git的配置文件
+
+       git config --global user.email "邮箱“
+
+       git config --global user.name "用户名"
+
+       ssh-keygen -t rsa -C "注册邮箱" //创建本地密文
+```
+#### 去对应的目录查找密文文件
+```bush
+       rsa.pub 复制密文，粘贴 setting -> SSH key and GPD -> new ssh key -> 粘贴
+
+       ssh -T git@github.com //测试关联是否成功
+```
+### 2.为目标仓库起别名，定位目标仓库，后续上传
+
+
 Markdown ，文本修饰语言，用特殊符号修饰正文效果<br> 
 
 ## 标题修饰符\#
