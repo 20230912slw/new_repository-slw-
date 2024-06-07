@@ -2,11 +2,11 @@
 
 
 ### 关键字查询
-    **awesome** ,去此标签类别中查询项目
+   **awesome** ,去此标签类别中查询项目
 
-    **python tutorial**, 查询资料，书籍，文档
+   **python tutorial**, 查询资料，书籍，文档
 
-    **socket sample**, 查询对应技术的代码样本
+   **socket sample**, 查询对应技术的代码样本
 
 ## github 三要素
 
@@ -28,8 +28,7 @@
 
     * 不仅可以管理代码存储，便于多人协作开发
 
-    [![2024-06-07-222002.jpg](https://i.postimg.cc/132ccWLt/2024-06-07-222002.jpg)](https://postimg.cc/Hr0yTtWD)
-
+[![2024-06-07-222002.jpg](https://i.postimg.cc/132ccWLt/2024-06-07-222002.jpg)](https://postimg.cc/Hr0yTtWD)    
 
 
 Markdown ，文本修饰语言，用特殊符号修饰正文效果<br> 
