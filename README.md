@@ -8,7 +8,9 @@
 
    **socket sample**, 查询对应技术的代码样本
 
+
 ## github 三要素
+
 
 ### Repository 仓库
 
@@ -29,6 +31,25 @@
     * 不仅可以管理代码存储，便于多人协作开发
 
 [![2024-06-07-222002.jpg](https://i.postimg.cc/132ccWLt/2024-06-07-222002.jpg)](https://postimg.cc/Hr0yTtWD)    
+
+
+## 仓库内容
+
+  **Code**,资源存储，代码资源，二进制，项目管理脚本，许可证等等
+ 
+  **issues**,使用时遇到的bug或进行提交，等待反馈
+ 
+  **README**,使用markdown语言编写，工程自述文件，开发进度，版本更新，使用介绍等等
+
+  **LICENSE许可证**
+
+  GPL2.0,3.0  Apahce2.0 Mit, 这些许可证，给使用者最大使用权限以及最少的限制
+
+
+## Git软件，分布式版本布置系统
+   仓库管理软件，使用git管理私人代码或企业代码
+
+[![2024-06-07-224224.jpg](https://i.postimg.cc/8Pr086Nj/2024-06-07-224224.jpg)](https://postimg.cc/MvqDVXcS)
 
 
 Markdown ，文本修饰语言，用特殊符号修饰正文效果<br> 
