@@ -2,5 +2,6 @@
 
 int mian(){
       printf("再改举报你");
-  return 0;
+      printf("笑了");
+      return 0;
 }
