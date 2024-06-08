@@ -56,8 +56,8 @@
 
 ### 1.如何让网站的账户与设备绑定，后续完成代码的管理
 ```bush
-       git init //创建本地仓库
-
+       git init //创建本地仓库    后续对仓库的操作，都要在仓库位置（master）
+                               
        git config --list //查看git的配置文件
 
        git config --global user.email "邮箱“
@@ -70,7 +70,7 @@
 ```bush
        rsa.pub 复制密文，粘贴 setting -> SSH key and GPD -> new ssh key -> 粘贴
 
-       ssh -T git@github.com //测试关联是否成功
+       ssh -T git@github.com //测试关联是否成功   ssh远程登录
 ```
 ### 2.为目标仓库起别名，定位目标仓库，后续上传
 ```bush
@@ -92,11 +92,41 @@
 
        git restroe //恢复被删除(仓库存在)
 ```
+[![2024-06-08-090102.jpg](https://i.postimg.cc/50Y0cbDD/2024-06-08-090102.jpg)](https://postimg.cc/jwTKP0xh)
+
+## 代码更新的依赖关系被破坏
+   本地内容要比云端新，完成更新替换，但是如果直接修改云端内容，会导致本地内容无法再次提交
+
+   *先拉取 git pull 云端内容 与本地内容合并操作，然后再次推即可（先拉再推）*
+
+```bush
+       git pull --rebase origin master
+
+       git rebase --skip "忽略旧版，更新本地后可以上传"
+
+       git rebase --abort "忽略新版，此时还不能上传"
+
+       git rebase --continue "版本合并，解决冲突后可以直接上传"
+```
 
 
+## 下载开源代码
+
+```bush
+       git clone "https仓库地址" //下载开源项目code资源
+```
+
+## 分支Branch
+   关于分支的相关命令，创建分支，选择分支，合并分支等等
+
+# Markdown语言
+
+github 可以编写readme, 文本修饰语言
+   
 Markdown ，文本修饰语言，用特殊符号修饰正文效果<br> 
 
 ## 标题修饰符\#
+   修饰符与正文之间要有空格
 
 # 标题修饰符 (一级标题)
 ## (二级标题）
