@@ -52,7 +52,7 @@
 [![2024-06-07-224224.jpg](https://i.postimg.cc/8Pr086Nj/2024-06-07-224224.jpg)](https://postimg.cc/MvqDVXcS)
 
 
-##设备认证
+## 设备认证
 
 ### 1.如何让网站的账户与设备绑定，后续完成代码的管理
 ```bush
@@ -73,6 +73,25 @@
        ssh -T git@github.com //测试关联是否成功
 ```
 ### 2.为目标仓库起别名，定位目标仓库，后续上传
+```bush
+       git remote add orgin "ssh地址" //为ssh仓库地址创建别名为origin
+
+       git remote remove orgin //删除origin别名
+
+       git remote add orgin "ssh地址" //为ssh仓库地址创建别名为origin
+```
+
+## 本地设备与云端仓库的交互逻辑
+
+[![2024-06-08-085250.jpg](https://i.postimg.cc/zG8VLmRR/2024-06-08-085250.jpg)](https://postimg.cc/w746PG26)
+
+```bush
+       git add //添加内容
+
+       git rm //删除本地文件并删除仓库数据
+
+       git restroe //恢复被删除(仓库存在)
+```
 
 
 Markdown ，文本修饰语言，用特殊符号修饰正文效果<br> 
